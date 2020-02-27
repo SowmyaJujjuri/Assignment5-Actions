@@ -22,7 +22,7 @@ class TestCase(unittest.TestCase):
 
         arr2 = ["hi", "what", "bye"]
         self.assertEqual(["hi", "bye"], task.lastElement(arr2))
-        
+
 
 if __name__ == '__main__':
     unittest.main()
