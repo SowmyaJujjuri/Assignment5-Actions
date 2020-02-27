@@ -23,6 +23,17 @@ class TestCase(unittest.TestCase):
         arr2 = ["hi", "what", "bye"]
         self.assertEqual(["hi", "bye"], task.lastElement(arr2))
 
+    def test_days(self):
+        day1 = 4
+        day2 = 21
+
+        self.assertEqual(17, task.days(day1, day2))
+
+        day3 = 20
+        day4 = 5
+
+        self.assertEqual(15, task.days(day3, day4))
+
 
 if __name__ == '__main__':
     unittest.main()

@@ -9,3 +9,7 @@ def area(radius):
 def lastElement(arr):
     result = [arr[0], arr[len(arr)-1]]
     return result
+
+
+def days(a, b):
+    return abs(a - b)
